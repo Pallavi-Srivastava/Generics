@@ -15,19 +15,19 @@ public class MaxIntegerTest {
 
 	// TC 1.1
 	@Test
-	public void givenInteger_ReturnsFirstMaximum1() {
+	public void givenInteger_ReturnsFirstMaximum() {
 		assertTrue(obj.firstMax(90, 36, 74));
 	}
 
 	// TC 1.2
 	@Test
-	public void givenInteger_ReturnsSecondMaximum1() {
+	public void givenInteger_ReturnsSecondMaximum() {
 		assertTrue(obj.secondMax(40, 50, 30));
 	}
 
 	// TC 1.3
 	@Test
-	public void givenInteger__ReturnsThirdMaximum2() {
+	public void givenInteger__ReturnsThirdMaximum() {
 		assertTrue(obj.thirdMax(30, 40, 80));
 	}
 }
